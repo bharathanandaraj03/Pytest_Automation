@@ -19,22 +19,20 @@ Pre-requisite:
 
 Project Details:
 
-Requirments.txt -> to store python packages required for the Project to run
-Ex: pytest, selenium, etc
-Pytestrun.bat -> Double to click to run the test automatically
-Globalconfig.json -> to store the app URL’s and other Global variables (Ex: User details, etc.) required for the project
-Conftest.py -> to configure set up and tear down steps (Ex: configuring selenium driver and close when test ends)
+* Requirments.txt -> to store python packages required for the Project to run
+  Ex: pytest, selenium, etc
+* Pytestrun.bat -> Double to click to run the test automatically
+* Globalconfig.json -> to store the app URL’s and other Global variables (Ex: User details, etc.) required for the project
+* Conftest.py -> to configure set up and tear down steps (Ex: configuring selenium driver and close when test ends)
 
 Folder Details:
 
-UTIL - Contains common programs such as to read data from configuration file
-TestData - to store the test data required for the Project
-TestCases - Contains test cases created for the project
-Selenium - Contains common selenium reusable methods such as click, sendkeys
-Results - All the test execution output would be stored in this folder
-OTPHandler - Project specific contains http server API’s and to read the OTP file
-Drivers - Contains selenium browser drivers
-AppPageObjects – to store application object locators (Ex: xpath, id etc)
-AppComponents – Contains reusable application methods such as login, logout etc
-
-
+1) UTIL - Contains common programs such as to read data from configuration file
+2) TestData - to store the test data required for the Project
+3) TestCases - Contains test cases created for the project
+4) Selenium - Contains common selenium reusable methods such as click, sendkeys
+5) Results - All the test execution output would be stored in this folder
+6) OTPHandler - Project specific contains http server API’s and to read the OTP file
+7) Drivers - Contains selenium browser drivers
+8) AppPageObjects – to store application object locators (Ex: xpath, id etc)
+9) AppComponents – Contains reusable application methods such as login, logout etc
