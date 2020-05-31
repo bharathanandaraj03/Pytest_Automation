@@ -1,0 +1,5 @@
+{
+"chromeDriverPath": "Drivers\\chromedriver.exe",
+"whatsAppWebURL":"https://web.whatsapp.com/",
+"loggingLevel":"Debug"
+}
